@@ -1,0 +1,33 @@
+body{
+	background: rgba(0, 255, 255, 0.726);
+}
+
+#banner {
+	width: 100%;
+}
+
+p{
+	text-align: center;
+	
+}
+
+h1{
+	text-align: center;
+	background: rgb(48, 235, 48);
+}
+
+#nossamisao {
+	font-size: 20px;
+}
+
+strong{
+	color: red;
+}
+
+em strong{
+	color: red;
+}
+
+.itens {
+	font-style: italic;
+}
