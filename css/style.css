@@ -1,13 +1,30 @@
+.github{
+	
+	transform: translateZ(15px);
+	transform: translateX(10px);
+	transform: translateY(-20px);
+}
+.som{
+	background-color: dimgrey;
+	
+}
 body{
-	background: rgba(0, 255, 255, 0.726);
+	
 }
 
 #banner {
 	width: 100%;
+	box-shadow: 8px -4px 10px 4px dimgrey;
+	border-radius: 10px;
+}
+
+.principal{
+	background: rgba(0, 255, 255, 0.726);
 }
 
 p{
 	text-align: center;
+	text-shadow: 4px -2px 3px #000000;
 	
 }
 
@@ -16,7 +33,7 @@ h1{
 	background: rgb(48, 235, 48);
 }
 
-#nossamisao {
+.nossamisao {
 	font-size: 20px;
 }
 
@@ -30,4 +47,24 @@ em strong{
 
 .itens {
 	font-style: italic;
+}
+
+h2{
+	text-align: center;
+}
+
+.imagembeneficios{
+	width: 50%;
+}
+
+.Benefícios{
+	background: lightgreen;
+	padding: 20px;
+}
+
+ul{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
 }
